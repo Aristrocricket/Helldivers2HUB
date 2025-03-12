@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Helldivers HUB</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+        <div id="dashboard">
+            <div id="title-head">
+                <img src="assets/images/favicon.png" width="38.6px" height="40px" style="padding-top: 20px;">
+                <h1 id="title">Helldivers HUB</h1>
+            </div>
+
+            <a href="index.html"><button class="dashboard-buttons">Home</button></a>
+            <a href="CommunityFactions.html"><button class="dashboard-buttons">Community Factions</button></a>
+            <a href="Alerts.html"><button class="dashboard-buttons">Alerts</button></a>
+            <a href="Statistics.html"><button class="dashboard-buttons">Statistics</button></a>
+            <a href="Assignments.html"><button class="dashboard-buttons">Assignments</button></a>
+        </div>
+
+        <ul id="dataContainer" style="font-size: 20px; padding-left: 50px; padding-top: 30px; text-align: center;"></ul>
+    </main>
+
+    <script src="fetchJSON.js"></script>
+  </body>
+</html>

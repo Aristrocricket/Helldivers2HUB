@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "HD";
+    src: url("assets/fonts/FS\ Sinclair\ Medium.otf");
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: 'HD';
+    
+}
+
+#title {
+    text-align: left;
+    padding-top: 5px;
+    
+}
+
+/* Style the map container */
+#map {
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+
+.dashboard-buttons {
+    
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    font-family: "HD";
+    padding-top: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: black;
+    height: 45px;
+    width: 145px;
+    
+}
+
+#title-head {
+    gap: 20px;
+    display: flex;
+}
+
+.dashboard-buttons:hover {
+    background-color: rgba(224, 224, 224, 0.863);
+    
+}
+
+#dashboard{
+    background-color: #FFE710;
+    min-width: 105%;
+    left: -8px;
+    height: 70px;
+    gap: 25px;
+    display: flex;
+    
+    position: relative;
+    margin-top: -22px;
+}
+
+
+  /* Style for the stat item container */
+.stat-item {
+    font-family: "HD";
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Style for the dynamic value (numbers or data) */
+.dynamic-value {
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Style for the key (name of the statistic) */
+.stat-item strong {
+    color: white;
+    font-size: 18px;
+}
